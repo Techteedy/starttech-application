@@ -1,0 +1,45 @@
+.about h1 {
+  font-size: 2rem;
+  color: #1a1a2e;
+  margin-bottom: 0.5rem;
+}
+
+.about .subtitle {
+  color: #666;
+  margin-bottom: 2rem;
+  font-size: 1.05rem;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.info-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.info-card h3 {
+  margin-bottom: 1rem;
+  color: #e94560;
+}
+
+.info-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info-card ul li {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #f0f0f0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.info-card ul li:last-child {
+  border-bottom: none;
+}
